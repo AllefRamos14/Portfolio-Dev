@@ -1,0 +1,633 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monteserrat Alternates", sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px;
+
+
+}
+
+
+nav .Nav-link {
+  display: flex;
+  gap: 24px;
+}
+
+nav .Nav-link a {
+  text-decoration: none;
+  color: #606060;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+nav .Nav-link a:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+nav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 15px;
+  height: 32px;
+  width: 141px;
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+nav button:hover,
+.Container-Maste .left-section .Title .buttons button.doc:hover,
+.contact .items .item button:hover {
+  color: #000;
+  background: #fff;
+  border-color: #dedede;
+  cursor: pointer;
+}
+
+nav button i {
+  font-size: 20px;
+}
+
+.Container-Maste {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+  padding: 0 100px;
+  gap: 30px;
+}
+
+.Container-Maste img {
+  width: 410px;
+  height: 410px;
+}
+
+.Title h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.Title p {
+  font-size: 17px;
+  color: #606060;
+  margin-bottom: 15px;
+  width: 700px;
+
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  width: 137px;
+  height: 28px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.buttons .git {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #e8e8e8;
+}
+
+.git .ri-github-fill {
+  font-size: 20px;
+}
+
+.buttons button.git:hover {
+  color: #fff;
+  background: #000;
+}
+
+.buttons .doc {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  justify-content: center;
+}
+
+.doc .ri-arrow-right-line {
+  font-size: 20px;
+}
+
+.bottom p {
+  color: #606060;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.bottom .icons {
+  display: flex;
+  gap: 8px;
+  margin-left: 8px;
+
+}
+
+
+
+.Container-Maste img {
+  border-radius: 18px;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f5f5f5;
+  padding: 50px;
+}
+
+.About p {
+  font-size: 13px;
+  font-weight: 500;
+  background: #fff;
+  color: #606060;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 8px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+}
+
+.About h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.item {
+  width: 26%;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  background: #f1f1f1;
+  padding: 0 0 30px;
+
+
+}
+
+.inner {
+  background: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+  min-height: 365px;
+
+
+}
+
+.inner a {
+  font-size: 18px;
+  color: #000;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.inner p {
+  color: #606060;
+  font-size: 15px;
+
+}
+
+.inner img {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+.projects {
+  padding: 0 24px;
+  background: #f5f5f5;
+}
+
+.projects .inner2 {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 70px;
+  border-radius: 24px;
+}
+
+.projects .inner p.debug {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #d8d8d8;
+  border: 1px solid #484848;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+aaaaaa .projects .inner2 p.debug {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #d8d8d8;
+  border: 1px solid #484848;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+
+.projects .inner2 p.debug i,
+.projects .inner2>button i {
+  font-size: 18px;
+}
+
+.projects .item i {
+  font-size: 30px;
+  border: 1px solid #a1a1a1;
+  border-radius: 8px;
+  padding: 6px 6px;
+  background: #303030;
+
+}
+
+.projects .inner2>h2 {
+  font-size: 38px;
+  margin-bottom: 24px;
+}
+
+.projects .inner2 p.info {
+  font-size: 18px;
+  color: #dedede;
+  margin-bottom: 24px;
+}
+
+.projects .inner2>button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #ffff;
+  color: #000;
+  padding: 8px 20px;
+  margin-bottom: 40px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+.projects .inner2 button:hover {
+  background: #a1a1a1;
+  color: #ffff;
+  transition: 0.7s;
+
+}
+
+.projects .inner2 .items {
+  display: flex;
+  gap: 20px;
+}
+
+.projects .inner2 .items .item {
+  border: 1px solid #484848;
+  border-radius: 16px;
+  padding: 32px 24px;
+  height: 250px;
+  width: 24%;
+  background: #262626;
+}
+
+.projects .inner2 .items .item a {
+  display: block;
+  margin: 24px 0 14px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.projects .inner2 .items .item p {
+  color: #a1a1a1;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inner2 h2 {
+  color: #fff;
+}
+
+.Container {
+  display: flex;
+  padding: 70px 30px;
+  justify-content: start;
+  flex-direction: column;
+
+}
+
+.Container h1 {
+  font-weight: 500;
+}
+
+.Container-Card {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.Card-1,
+.Card-2 {
+  background: #fff;
+  padding: 20px;
+  width: 550px;
+  border-radius: 7px;
+  border: 1px solid #ffff;
+}
+
+.Card-1 .Card-2,
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Card-1 .Card-2,
+p {
+  color: #a1a1a1;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.Card-1 .Card-2,
+button {
+  background: #000;
+  color: #f1f1f1;
+  padding: 7px 18px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+
+}
+
+.Card-1 .Card-2,
+button:hover {
+  /* opacity: 80%; */
+  transition: 0.4s;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+.Container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background: #1f1f1f;
+  padding: 20px 10px;
+  border-radius: 20px 20px 0 0;
+
+
+}
+
+.Container-footer a {
+  text-decoration: none;
+  color: #a1a1a1;
+
+}
+
+.Container-footer a:hover {
+  color: #ffff;
+  opacity: 80%;
+  transition: 0.5s;
+  transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  .Container-Maste.left-section .Title h2 {
+    font-size: 25px;
+  }
+
+  .Container-Maste .left-section .Title p {
+    font-size: 14px;
+  }
+
+  .Container-Maste .left-section .Title .buttons button,
+  .projects .inner2>button,
+  .Container .items .item button {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .Container-Maste .left-section .Title .buttons button i {
+    font-size: 18px;
+  }
+
+  .About .items .item .inner {
+    min-height: 340px;
+  }
+
+  .About .items .item .inner a,
+  .projects .inner>p.info,
+  .Container .items .item p {
+    font-size: 15px;
+  }
+
+  .About .items .item .inner p {
+    font-size: 13px;
+  }
+
+  .projects .inner2 .items {
+    flex-wrap: wrap;
+  }
+
+  .projects .inner2 .items .item {
+    width: 46%;
+    height: 220px;
+  }
+
+  .Container .items .item a {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .Container-Maste {
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 100px);
+  }
+
+  .Container-Maste .left-section {
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Container-Maste .left-section .Title {
+    text-align: center;
+    width: 448px;
+  }
+
+  .Container-Maste .Title p {
+    display: flex;
+    align-items: center;
+    width: 450px;
+  }
+
+  .Container-Maste .left-section .Title .buttons {
+    justify-content: center;
+  }
+
+  .About .items {
+    flex-wrap: wrap;
+  }
+
+  .About .items .item {
+    width: 40%;
+  }
+
+  .projects .inner2 .items .item {
+    height: 250px;
+  }
+
+  .Container .items .item button {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  nav,
+  nav .Nav-link {
+    gap: 16px;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .Container-Maste {
+    padding: 0 40px;
+  }
+
+  .Container-Maste>img {
+    width: 55%;
+  }
+
+  .About>h2 {
+    font-size: 18px;
+  }
+
+  .About .items .item {
+    width: 100%;
+  }
+
+  .About .items .item .inner img {
+    height: 65%;
+    max-height: 250px;
+  }
+
+  .projects .inner2 {
+    padding: 50px 40px;
+  }
+
+  .projects .inner2>h2 {
+    font-size: 24px;
+  }
+
+  .projects .inner2 p.info {
+    font-size: 13px;
+  }
+
+  .projects .inner2 button {
+    width: 100%;
+  }
+
+  .projects .inner2 .items .item {
+    width: 100%;
+    height: 170px;
+  }
+
+  .projects .inner2 .items .item i {
+    font-size: 28px;
+  }
+
+  .projects .inner2 .items .item a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .projects .inner2 .items .item p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .Container {
+    padding: 100px 40px;
+  }
+
+  .Container>h2 {
+    font-size: 22px;
+  }
+
+  .Container .items {
+    flex-wrap: wrap;
+  }
+
+  .Container .items .item {
+    width: 100%;
+  }
+
+  .Container .items .item:nth-child(1) {
+    border-radius: 12px 12px 0 0;
+  }
+
+  .Container .items .item:nth-child(2) {
+    border-radius: 0 0 12px 12px;
+  }
+
+  footer a {
+    font-size: 11px;
+  }
+
+}
