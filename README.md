@@ -6,7 +6,7 @@ Este projeto é um **template de portfólio para desenvolvedores**, criado como 
 📸 Preview
 
 <p align="center">
-  <img src="./assets/umage-logo.png" width="800"/>
+  <img src="./assets/image-logo.png" width="800"/>
 </p>
 
 ## ✨ Sobre o projeto
