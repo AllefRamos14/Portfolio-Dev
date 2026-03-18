@@ -6,10 +6,9 @@ Este projeto é um **template de portfólio para desenvolvedores**, criado como 
 📸 Preview
 
 <p align="center">
-  <img src="./assets/image-logo.png" width="800"/>
+  <img src="./src/assets/image-logo.png" width="800"/>
 </p>
 
-![Preview do projeto](./assets/image-logo.png)
 
 ## ✨ Sobre o projeto
 
