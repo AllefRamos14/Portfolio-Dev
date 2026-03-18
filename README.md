@@ -3,11 +3,15 @@
 Este projeto é um **template de portfólio para desenvolvedores**, criado como sugestão para quem deseja montar seu próprio portfólio utilizando **React, HTML, CSS e JavaScript**.
 
 
+
+
 📸 Preview
 
 <p align="center">
-  <img src="./src/assets/image-logo.png" width="800"/>
+  <img src="./src/assets/image-logo.png" width="600"/>
 </p>
+
+
 
 
 ## ✨ Sobre o projeto
