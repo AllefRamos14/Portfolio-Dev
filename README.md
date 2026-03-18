@@ -9,6 +9,8 @@ Este projeto é um **template de portfólio para desenvolvedores**, criado como 
   <img src="./assets/image-logo.png" width="800"/>
 </p>
 
+![Preview do projeto](./assets/image-logo.png)
+
 ## ✨ Sobre o projeto
 
 A proposta deste projeto é servir como base para desenvolvedores que querem criar um portfólio moderno, responsivo e fácil de personalizar.
